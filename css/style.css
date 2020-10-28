@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-size-adjust: 16;
+    color: Blue;
+    text-decoration-style: double;
+    
+}
+h2{
+
+    color: rgb(186, 226, 43);
+}
+
+.tech{
+     color: brown;
+     padding-left: 1pc;
+}
+.data{
+    color: coral;
+}
+.object{
+    color: rgb(184, 11, 161);
+}
+.detail{
+    color: rgb(155, 7, 19);
+}
+.secondary{
+    color: deeppink;
+}
+.higher{
+    color: forestgreen;
+}
