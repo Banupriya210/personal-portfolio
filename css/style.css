@@ -11,9 +11,9 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     font-style: oblique;
-    line-height: 0.5cm ;
+    line-height: 5px ;
     font-variant: small-caps;
-    opacity: 350%;
+    opacity: 0.5px;
     text-decoration: underline;
 
     
@@ -43,10 +43,24 @@ h2{
 .container{
     margin: 0 auto;
     width: 500px;
-    background-image: url('../image/bg.jpg');
+    background-image: url('../image/Lighthouse.jpg');
     background-position: right;
     background-attachment: fixed;
-    /* background-color: indianred;
-    background-size: 200px;
-    background-position: center; */
+    
 }
+.navigation a:link{
+        color:rgb(247, 0, 255);
+    }
+    .navigation a:hover{
+          color: lawngreen;
+    }
+    .navigation a:active{
+        color: lightblue;
+    }
+    .navigation a:visited{
+        color: lightcoral;
+    }
+    .navigation a:focus{
+        color: lightsalmon;
+    }
+
